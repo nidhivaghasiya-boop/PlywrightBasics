@@ -1,0 +1,10 @@
+1. install it using belo command , within the project open the terminal: 
+npm install -D allure-playwright
+2. After installation check in package.json 
+3. in your playwright configuration file update repotoer to "reporter: "allure-playwright",
+4. execute ur desired test
+5. make sure allure-results folder got generated
+6.allure generate ./allure-results -o ./allure-report using this command it will generate a readble report in allure-reports folder
+7. check whether allure-reports folder created or not
+8. finally place this command in the terminal which will open the report for us; 
+allure open ./allure-report
